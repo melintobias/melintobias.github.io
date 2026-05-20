@@ -27,7 +27,7 @@ const functionalButtons = {
 
 let lcd
 let keyBoard
-let errorVisible = false
+let errorVisible
 
 function init() {
 	/**
