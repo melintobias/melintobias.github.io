@@ -90,6 +90,7 @@ function addComma() {
 	const isEmpty = lcd.value.trim().length === 0
 	const endsWithOperator = /[+−×÷]$/.test(lcd.value)
 	const commaInCurrentMember = /\d+,\d*$/.test(lcd.value)
+
 	// If LCD is empty or ends with an operator, prepend a zero before the comma
 	if (isEmpty || endsWithOperator) {
 		lcd.value += "0,"
