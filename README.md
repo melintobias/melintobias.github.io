@@ -1,3 +1,3 @@
-# Temporary PWA app mirror
+# Temporary PWA mirror
 
 <https://melintobias.github.io/>
