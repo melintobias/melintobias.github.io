@@ -59,6 +59,8 @@ function buttonClick(e) {
 	if (Object.hasOwn(numericButtons, button)) addDigit(numericButtons[button])
 	else if (Object.hasOwn(functionalButtons, button)) functionalButtons[button]()
 	else console.error(`Unknown button: ${button}`)
+
+	lcd.scrollLeft = lcd.scrollWidth
 }
 
 function onKeyDown(e) {
